@@ -1,0 +1,20 @@
+{
+  "name": "usage-monitoring-microservice",
+  "version": "1.0.0",
+  "description": "This microservice is designed to monitor user usage in terms of data volume for a photo gallery application. It utilizes Node.js as the server-side runtime and MongoDB as the NoSQL database.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongodb": "^6.3.0",
+    "nodemailer": "^6.9.7",
+    "nodemon": "^3.0.2"
+  }
+}
